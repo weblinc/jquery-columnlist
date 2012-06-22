@@ -11,7 +11,7 @@ jQuery plugin for splitting up uls into equal lists
 
 ```javascript
     $('ul.column-list-js').columnlist({
-        size : 3
+        size : 3,
         'class' : 'column-list',
         incrementClass : 'column-list-'
     });
