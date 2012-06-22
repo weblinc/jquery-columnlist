@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Column Lists</title>
+	</head>
+	<body>
+		<h1>jQuery Column Lists</h1>
+
+		<h2>Turn this list...</h2>
+		<ul>
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+			<li>Item #4</li>
+			<li>Item #5</li>
+			<li>Item #6</li>
+			<li>Item #7</li>
+			<li>Item #8</li>
+			<li>Item #9</li>
+			<li>Item #10</li>
+			<li>Item #11</li>
+			<li>Item #12</li>
+			<li>Item #13</li>
+			<li>Item #14</li>
+		</ul>
+		
+		<h2>Into this...</h2>
+		<ul class="column-list-js">
+			<li>Item #1</li>
+			<li>Item #2</li>
+			<li>Item #3</li>
+			<li>Item #4</li>
+			<li>Item #5</li>
+			<li>Item #6</li>
+			<li>Item #7</li>
+			<li>Item #8</li>
+			<li>Item #9</li>
+			<li>Item #10</li>
+			<li>Item #11</li>
+			<li>Item #12</li>
+			<li>Item #13</li>
+			<li>Item #14</li>
+		</ul>
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="../jquery.columnlist.js"></script>
+		<script>
+			$('ul.column-list-js').columnlist({ size: 3 });
+		</script>
+	</body>
+</html>
